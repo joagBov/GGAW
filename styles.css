@@ -1,0 +1,63 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    font-family: Arial, sans-serif;
+    overflow-x: hidden;
+}
+
+/* Header */
+header {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+/* Parallax Sections */
+.parallax {
+    height: 100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+#section1 {
+    background-image: url('https://source.unsplash.com/random/1600x900?nature');
+}
+
+#section3 {
+    background-image: url('https://source.unsplash.com/random/1600x900?city');
+}
+
+.parallax .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+    .parallax .content h2 {
+        font-size: 3em;
+        text-align: center;
+    }
+
+/* Static Sections */
+.static {
+    padding: 2em 1em;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
